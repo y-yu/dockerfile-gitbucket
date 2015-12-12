@@ -10,7 +10,7 @@ ADD https://github.com/gitbucket/gitbucket-gist-plugin/releases/download/3.7.0/g
 ADD https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin/releases/download/1.0/gitbucket-h2-backup-plugin.jar /var/gitbucket/plugins/gitbucket-h2-backup-plugin.jar
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
-ADD https://github.com/takezoe/gitbucket/releases/download/3.7/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/3.9/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
 
 VOLUME /var/gitbucket
 
