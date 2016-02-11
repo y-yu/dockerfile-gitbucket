@@ -1,4 +1,4 @@
-FROM tomcat:8.0-jre8
+FROM tomcat:latest
 
 MAINTAINER mayth <chimeaquas [at] hotmail.com>
 
