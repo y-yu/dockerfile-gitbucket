@@ -10,9 +10,9 @@ RUN mkdir /var/gitbucket/plugins
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -f /var/gitbucket/plugins/*.jar
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/3.13/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
-ADD https://github.com/gitbucket/gitbucket-gist-plugin/releases/download/3.13.0/gitbucket-gist-plugin_2.11-3.13.0.jar /var/gitbucket/plugins/gitbucket-gist-plugin_2.11-3.13.0.jar
-ADD https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin/releases/download/1.1/gitbucket-h2-backup-plugin.jar /var/gitbucket/plugins/gitbucket-h2-backup-plugin.jar
+ADD https://github.com/gitbucket/gitbucket/releases/download/3.14/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
+ADD https://github.com/gitbucket/gitbucket-gist-plugin/releases/download/4.0.0/gitbucket-gist-plugin_2.11-4.0.0.jar /var/gitbucket/plugins/gitbucket-gist-plugin_2.11-4.0.0.jar
+ADD https://github.com/gitbucket-plugins/gitbucket-h2-backup-plugin/releases/download/1.2.0/gitbucket-h2-backup-plugin.jar /var/gitbucket/plugins/gitbucket-h2-backup-plugin.jar
 
 VOLUME /var/gitbucket
 
