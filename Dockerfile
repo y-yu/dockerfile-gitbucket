@@ -7,7 +7,7 @@ ENV GITBUCKET_HOME /var/gitbucket
 RUN mkdir /var/gitbucket
 RUN mkdir /var/gitbucket/plugins
 
-ADD https://github.com/gitbucket/gitbucket/releases/download/4.2.1/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
+ADD https://github.com/gitbucket/gitbucket/releases/download/4.6/gitbucket.war /usr/local/tomcat/webapps/ROOT.war
 
 VOLUME /var/gitbucket
 
